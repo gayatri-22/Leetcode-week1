@@ -7,7 +7,7 @@ class Solution {
             return 0;
         }
         
-        boolean[] sieve = new boolean[N];
+        boolean[] sieve = new boolean[N+1];
         
         for(int i=0;i<N;i++){
             sieve[i]=true;
